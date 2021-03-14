@@ -19,7 +19,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 createEdgeSprites();
-paper= new Paper(200,450,10)
+paper= new Paper(200,650,60)
 
 log1= new Bin(1100,640,170,13)
 log2= new Bin(1000,620,13,81)

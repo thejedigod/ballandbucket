@@ -25,7 +25,7 @@ log1= new Bin(1100,640,170,13)
 log2= new Bin(1000,620,13,81)
 log3= new Bin(1202,620,13,120)
 
-
+/*
 ground = Bodies.rectangle(width/2, 650, width, 20 , {isStatic:true} );
  	World.add(world, ground);
 	Engine.run(engine);
@@ -38,7 +38,7 @@ ground = Bodies.rectangle(width/2, 650, width, 20 , {isStatic:true} );
 	Engine.run(engine);
 }
 
-
+*/
 function draw() {
   rectMode(CENTER);
   background(0);

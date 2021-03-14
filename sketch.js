@@ -49,7 +49,7 @@ log3.display();
   drawSprites();
   
   
-  keyPressed()
+ // keyPressed()
 
 
 }

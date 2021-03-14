@@ -22,8 +22,8 @@ createEdgeSprites();
 paper= new Paper(200,450,40)
 
 log1= new Bin(1100,640,13,206)
-log2= new Bin(1000,620,61,153)
-log3= new Bin(1202,620,61,153)
+log2= new Bin(1000,620,41,253)
+log3= new Bin(1202,620,41,253)
 
 
 ground = Bodies.rectangle(width/2, 650, width, 20 , {isStatic:true} );
@@ -57,7 +57,7 @@ log3.display();
 
 function keyPressed(){
 	if (keyCode === UP_ARROW){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x: 10,y:-10});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x: 15,y:-15});
 	}
 }
 

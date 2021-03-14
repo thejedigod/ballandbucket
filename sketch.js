@@ -57,7 +57,7 @@ log3.display();
 
 function keyPressed(){
 	if (keyCode === UP_ARROW){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x: 26,y:-26});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x: 26,y:-35});
 	}
 }
 

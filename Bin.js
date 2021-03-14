@@ -19,7 +19,7 @@ class Bin {
       push();
       translate(pos.x, pos.y);
       fill(255);
-     rect(0, 0,this.height,this.width);
+     rect(0, 0,this.width,this.height);
       pop();
     }
   };

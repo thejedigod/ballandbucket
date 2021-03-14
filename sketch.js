@@ -21,7 +21,7 @@ function setup() {
 createEdgeSprites();
 paper= new Paper(200,450,40)
 
-log1= new Bin(1100,640,13,206)
+log1= new Bin(1100,640,73,13)
 log2= new Bin(1000,620,41,53)
 log3= new Bin(1202,620,41,53)
 

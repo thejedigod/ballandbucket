@@ -21,7 +21,7 @@ class Paper {
       rotate(angle);
       //rectMode(CENTER);
       fill(255);
-     circle(0, 0,this.radius);
+   ellipse(0, 0,this.radius);
       pop();
     }
   };
